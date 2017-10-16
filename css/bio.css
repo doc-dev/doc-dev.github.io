@@ -1,0 +1,79 @@
+body {
+  background-color: #FFFFFF;
+  font-size: 11pt;
+  font-family: Georgia,Garamond,serif;
+  max-width: 1024px;
+  letter-spacing: 0.25em;
+}
+
+h2,h3,h4,h5,h6 {
+  color: #A4A400;
+  background-color: #F0F0F0;
+  text-align: left;
+  font-size: 18pt;
+  font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+  text-decoration:underline;
+
+}
+
+h1 {
+  color: #A4A400;
+  text-align: center;
+  font-size: 22pt;
+  font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #A4A400;
+}
+
+table {
+  border-width: 5px;
+  border-color: #222222;
+  border-collapse: collapse;
+}
+
+th {
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+}
+
+td {
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+}
+
+ul {
+  list-style-image: url("../img/cup.png");
+}
+
+img {
+  float: right;
+}
+
+footer {
+  float: left;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

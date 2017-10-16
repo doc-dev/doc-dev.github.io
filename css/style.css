@@ -1,0 +1,71 @@
+div {
+  width:200px;
+}
+
+body {
+  background-color:#F0F0F0;
+  font-family:Helvetica, Verdana, sans-serif;
+  margin-left:4%;
+  margin-right:6%;
+}
+
+h2 {
+  font:400 40px/1.5 Helvetica, Verdana, sans-serif;
+  margin:0;
+  padding:0;
+}
+
+ul {
+  list-style:url('../img/rsz_tnt.png');
+  list-style-position:outside;
+}
+
+li {
+  font:200 40px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+p {
+  font:300 20px/1.5 Helvetica, Verdana, sans-serif;
+  text-align:center;
+}
+
+li:last-child {
+  border:none;
+}
+
+h1,h3 {
+  text-align:center;
+  line-height:80%;
+}
+
+li a {
+  text-decoration:none;
+  color:#000;
+  display:block;
+  width:200px;
+}
+
+li a:hover {
+  background:red;
+  font-size:42px;
+}
+
+.centro {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+img#destra {
+  float:right;
+}
+
+#menu {
+  padding-left:10%;
+}
+
+#bold {
+  font-weight:700;
+  text-decoration:underline;
+}
+
